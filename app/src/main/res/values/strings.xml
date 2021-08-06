@@ -1,0 +1,21 @@
+<resources>
+    <!-- Developed by: Michael A. F. -->
+    <string name="app_name">EQuake</string>
+    <string name="placeholder_magnitude">M: 7.1</string>
+    <string name="placeholder_depth">D: 8</string>
+    <string name="placeholder_location">Glasgow</string>
+    <string name="placeholder_date">Sun, 31 Jan 2021 12:30:10</string>
+    <string name="placeholder_coordinates">55.860916, -4.251433</string>
+    <string name="search_date_label">Filter:</string>
+    <string name="search_date_start_hint">Start Date</string>
+    <string name="search_date_end_hint">End Date</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="placeholder_link">Link</string>
+    <string name="exit_content_desc">Go back</string>
+    <string name="sort_button">Sort</string>
+    <string name="search_content_desc">Search</string>
+    <string name="placeholder_date_hint">Enter Date Range</string>
+    <string name="filter_back_button_content_desc">Back Button</string>
+    <string name="directions_filter_label">Order: North/South/East/West</string>
+    <string name="label_empty">No Results Found</string>
+</resources>

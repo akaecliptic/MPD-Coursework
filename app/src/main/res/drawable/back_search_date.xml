@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Developed by: Michael A. F. -->
+    <item
+        android:width="?attr/layout_constrainedWidth"
+        android:height="?attr/layout_constrainedHeight">
+        <shape android:shape="rectangle">
+            <corners android:radius="50dp" />
+            <solid android:color="@color/color_primary_light" />
+        </shape>
+    </item>
+</layer-list>

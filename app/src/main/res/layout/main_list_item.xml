@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Developed by: Michael A. F. -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_list_item"
+    android:layout_width="match_parent"
+    android:layout_height="65dp"
+    android:layout_margin="1dp"
+    android:background="@drawable/back_main_list_item">
+
+    <ImageView
+        android:id="@+id/mli_img_open"
+        style="@style/EQuakeIcons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="10dp"
+        android:src="@drawable/ic_arrow_open" />
+
+    <TextView
+        android:id="@+id/mli_text_depth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginBottom="10dp"
+        android:maxLength="6"
+        android:text="@string/placeholder_depth" />
+
+    <TextView
+        android:id="@+id/mli_text_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/placeholder_location" />
+
+    <TextView
+        android:id="@+id/mli_text_coordinates"
+        style="@style/EQuakeMinor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mli_text_location"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="65dp"
+        android:text="@string/placeholder_coordinates" />
+
+    <TextView
+        android:id="@+id/mli_text_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="60dp"
+        android:layout_marginBottom="5dp"
+        android:text="@string/placeholder_date"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/mli_text_magnitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="10dp"
+        android:maxLength="6"
+        android:text="@string/placeholder_magnitude" />
+
+</RelativeLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Developed by: Michael A. F. -->
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/main">
+
+    <fragment
+        android:id="@+id/main"
+        android:name="org.me.gcu.equake.Fragment.MainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main">
+        <action
+            android:id="@+id/action_main_to_equake"
+            app:destination="@id/equake" />
+        <action
+            android:id="@+id/action_main_to_filter"
+            app:destination="@id/filter" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/equake"
+        android:name="org.me.gcu.equake.Fragment.EQUAKEFragment"
+        android:label="fragment_equake"
+        tools:layout="@layout/fragment_equake" />
+
+    <fragment
+        android:id="@+id/filter"
+        android:name="org.me.gcu.equake.Fragment.FilterFragment"
+        android:label="fragment_filter"
+        tools:layout="@layout/fragment_filter">
+        <action
+            android:id="@+id/action_filter_to_equake"
+            app:destination="@id/equake" />
+    </fragment>
+</navigation>

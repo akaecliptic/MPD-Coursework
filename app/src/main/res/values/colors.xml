@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Developed by: Michael A. F. -->
+<resources>
+    <!-- MainFragment -->
+    <color name="color_primary">#258498</color>
+    <color name="color_primary_light">#53B4D1</color>
+    <color name="color_primary_dark">#212F59</color>
+    <color name="color_accent_primary">#ea7070</color>
+    <color name="color_accent_secondary">#e59572</color>
+
+    <!-- Background -->
+    <color name="color_background_primary">#fafafa</color>
+    <color name="color_background_secondary">#ECE2DF</color>
+    <color name="color_background_tertiary">#201612</color>
+
+    <!-- Text  -->
+    <color name="color_text_white">#eeeeee</color>
+    <color name="color_text_black">#111111</color>
+    <color name="color_text_grey">#777</color>
+
+    <color name="color_text_dark_primary">#222</color>
+    <color name="color_text_dark_secondary">#444</color>
+
+    <color name="color_text_light_primary">#D9D9D9</color>
+    <color name="color_text_light_secondary">#BBB</color>
+
+    <!-- Equk Strength Accents -->
+    <color name="color_equk_high">#E77777</color>
+    <color name="color_equk_medium">#DEE777</color>
+    <color name="color_equk_low">#80E777</color>
+
+    <!-- StudentID -->
+    <color name="color_label_id">#80000000</color>
+
+</resources>

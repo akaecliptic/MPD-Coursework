@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Developed by: Michael A. F. -->
+    <item
+        android:maxLevel="10"
+        android:minLevel="6">
+        <layer-list>
+            <item
+                android:width="?attr/layout_constrainedWidth"
+                android:height="?attr/layout_constrainedHeight">
+                <shape android:shape="rectangle">
+                    <corners android:radius="5dp" />
+                    <solid android:color="@color/color_background_primary" />
+                </shape>
+            </item>
+            <item
+                android:width="50dp"
+                android:height="?attr/layout_constrainedHeight">
+                <shape android:shape="rectangle">
+                    <corners
+                        android:bottomLeftRadius="5dp"
+                        android:topLeftRadius="5dp" />
+                    <solid android:color="@color/color_equk_high" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+    <item
+        android:maxLevel="5"
+        android:minLevel="3">
+        <layer-list>
+            <item
+                android:width="?attr/layout_constrainedWidth"
+                android:height="?attr/layout_constrainedHeight">
+                <shape android:shape="rectangle">
+                    <corners android:radius="5dp" />
+                    <solid android:color="@color/color_background_primary" />
+                </shape>
+            </item>
+            <item
+                android:width="50dp"
+                android:height="?attr/layout_constrainedHeight">
+                <shape android:shape="rectangle">
+                    <corners
+                        android:bottomLeftRadius="5dp"
+                        android:topLeftRadius="5dp" />
+                    <solid android:color="@color/color_equk_medium" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+    <item
+        android:maxLevel="2"
+        android:minLevel="0">
+        <layer-list>
+            <item
+                android:width="?attr/layout_constrainedWidth"
+                android:height="?attr/layout_constrainedHeight">
+                <shape android:shape="rectangle">
+                    <corners android:radius="5dp" />
+                    <solid android:color="@color/color_background_primary" />
+                </shape>
+            </item>
+            <item
+                android:width="50dp"
+                android:height="?attr/layout_constrainedHeight">
+                <shape android:shape="rectangle">
+                    <corners
+                        android:bottomLeftRadius="5dp"
+                        android:topLeftRadius="5dp" />
+                    <solid android:color="@color/color_equk_low" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+
+</level-list>

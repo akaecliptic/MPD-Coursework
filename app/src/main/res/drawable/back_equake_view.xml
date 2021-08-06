@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Developed by: Michael A. F. -->
+    <item
+        android:maxLevel="10"
+        android:minLevel="6">
+        <shape android:shape="rectangle">
+            <corners
+                android:bottomLeftRadius="5dp"
+                android:bottomRightRadius="5dp" />
+            <solid android:color="@color/color_equk_high" />
+        </shape>
+    </item>
+    <item
+        android:maxLevel="5"
+        android:minLevel="3">
+        <shape android:shape="rectangle">
+            <corners
+                android:bottomLeftRadius="5dp"
+                android:bottomRightRadius="5dp" />
+            <solid android:color="@color/color_equk_medium" />
+        </shape>
+    </item>
+    <item
+        android:maxLevel="2"
+        android:minLevel="0">
+        <shape android:shape="rectangle">
+            <corners
+                android:bottomLeftRadius="5dp"
+                android:bottomRightRadius="5dp" />
+            <solid android:color="@color/color_equk_low" />
+        </shape>
+    </item>
+
+</level-list>
